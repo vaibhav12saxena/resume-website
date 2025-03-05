@@ -1,0 +1,11 @@
+.dotted-line {
+  border-left: 2px dotted #ccc; /* Dotted vertical line */
+  height: 100%; /* Ensure the line stretches vertically */
+}
+
+.top30 {
+  top: 30px;
+}
+.left16 {
+  left: 16px;
+}

@@ -1,0 +1,49 @@
+import React from "react";
+import Card from "./card";
+import "./work.css";
+import workData from "../../data/workData";
+
+const Work = () => {
+  return (
+    <section id="work" className="min-h-screen pt-16 px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto">
+        {workData.map((section, sectionIndex) => (
+          <div key={sectionIndex} className="mb-12">
+            <h2 className="section-title mb-4">{section.section}</h2>
+
+            {/* Responsive Grid Layout */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+              {section.items.map((work, index) => (
+                <Card
+                  image={work.image}
+                  key={index}
+                  title={work.title}
+                  tags={work.tags}
+                  path={work.path}
+                  // description={work.description}
+                />
+              ))}
+
+              {/* Ensure Behance Card is properly aligned */}
+              {sectionIndex === workData.length - 1 && (
+                <div className="behance-card flex items-center justify-center text-center p-4  rounded-lg">
+                  + more on&nbsp;
+                  <a
+                    href="https://www.behance.net/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <u className="text-blue-500">Behance</u>
+                  </a>
+                  :)
+                </div>
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
+
+export default Work;

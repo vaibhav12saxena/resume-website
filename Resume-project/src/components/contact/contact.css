@@ -1,0 +1,48 @@
+.contact-container {
+  text-align: center;
+}
+
+.social-icons,
+.resume-link,
+.contact-form {
+  margin-bottom: 20px;
+}
+
+.social-icons p,
+.resume-link p {
+  margin-bottom: 10px;
+}
+
+.behance-icon,
+.linkedin-icon,
+.instagram-icon,
+.resume-icon {
+  font-size: 2rem;
+  margin: 0 10px;
+}
+
+button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.margin-bottom {
+  margin-bottom: 228px;
+}
+
+input {
+  height: 64px !important;
+}
+textarea {
+  height: 145px;
+}
+.send-button {
+  color: #000;
+  background-color: #ffe9e4;
+  border-radius: 48px;
+}
+
+

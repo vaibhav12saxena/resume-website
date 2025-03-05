@@ -1,0 +1,35 @@
+styles.css .profile-shape {
+  /* Custom flower-like shape */
+  clip-path: polygon(
+    50% 0%,
+    80% 10%,
+    100% 35%,
+    100% 70%,
+    80% 90%,
+    50% 100%,
+    20% 90%,
+    0% 70%,
+    0% 35%,
+    20% 10%
+  );
+}
+
+/* Custom hover effect for cards */
+.info-card {
+  transition: transform 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-2px);
+}
+
+/* Heading gradient */
+.gradient-text {
+  background: linear-gradient(45deg, #1a202c, #4a5568);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.font-emoji {
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji",
+    "Android Emoji", sans-serif;
+}

@@ -1,0 +1,21 @@
+.card {
+  width: 320px;
+}
+.card-img {
+  background-color: rgb(171, 169, 169);
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-title {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.chips-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+  gap: 8px; /* Margin between chips and lines */
+  margin-bottom: 8px; /* Margin between lines */
+}
