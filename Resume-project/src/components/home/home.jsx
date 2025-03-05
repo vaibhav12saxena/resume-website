@@ -9,7 +9,7 @@ const Home = () => {
         {/* Profile Shape */}
         <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 mx-auto lg:mx-0">
           {/* <div className="profile-shape absolute inset-0 bg-pink-50" /> */}
-          <img src="src/assets/profile.png"></img>
+          <img src="/assets/profile.png"></img>
         </div>
 
         {/* Content Section */}
@@ -55,9 +55,7 @@ const Home = () => {
               <h3 className="text-sm text-gray-600 mb-2">Current Job</h3>
               <div className="space-y-1">
                 <p className="font-semibold text-gray-900">UX Designer</p>
-                {/* <p className="text-gray-700"> */}
-                <img src="src/assets/enphase_logo.png"></img>
-                {/* </p> */}
+                <img src="/assets/enphase_logo.png"></img>
               </div>
             </div>
 
@@ -66,7 +64,7 @@ const Home = () => {
               <div className="space-y-1">
                 <p className="font-semibold text-gray-900">Masters in Design</p>
                 {/* <p className="text-gray-700"> */}
-                <img src="src/assets/iit_roorkee_logo.png"></img>
+                <img src="/assets/iit_roorkee_logo.png"></img>
                 {/* </p> */}
               </div>
             </div>
