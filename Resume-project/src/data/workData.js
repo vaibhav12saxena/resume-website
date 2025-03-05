@@ -4,7 +4,7 @@ const workData = [
     items: [
       {
         title: "Self troubleshooting augmented reality guide",
-        image: "//assets/self_trouble.png",
+        image: "/assets/self_trouble.png",
         tags: [
           { title: "Product design", color: "#FDF4EB" },
           { title: "Exploratory", color: "#EBFDEE" },
@@ -15,7 +15,7 @@ const workData = [
       },
       {
         title: "Homeowner engagement through Enphase AI Assistant",
-        image: "//assets/homeowner.png",
+        image: "/assets/homeowner.png",
         tags: [
           { title: "Product design", color: "#FFE8E8" },
           { title: "Design system", color: "#FFF5E1" },
@@ -26,7 +26,7 @@ const workData = [
       },
       {
         title: "Express Editor: Real-Time Solar Proposal Customization Tool",
-        image: "//assets/express_editor.png",
+        image: "/assets/express_editor.png",
         tags: [
           { title: "Product design", color: "#FDF4EB" },
           { title: "Solargraf", color: "#EBFDEE" },
@@ -37,7 +37,7 @@ const workData = [
       },
       {
         title: "Iconography for Solargraf",
-        image: "//assets/iconography.png",
+        image: "/assets/iconography.png",
         tags: [
           { title: "Visual design", color: "#FFE8E8" },
           { title: "Solargraf", color: "#FFF5E1" },
@@ -47,7 +47,7 @@ const workData = [
       },
       {
         title: "Art & Illustrations",
-        image: "//assets/illustration.png",
+        image: "/assets/illustration.png",
         tags: [
           { title: "Digital art", color: "#E8FCFF" },
           { title: "Exploratory", color: "#EBFDEE" },
@@ -63,7 +63,7 @@ const workData = [
       {
         title:
           "Travel Bugs: A community travel website catering Uttarakhand Tourism",
-        image: "//assets/travel_bugs.png",
+        image: "/assets/travel_bugs.png",
         tags: [
           { title: "Product design", color: "#FDF4EB" },
           { title: "Degree coursework", color: "#F5EBFD" },
@@ -73,7 +73,7 @@ const workData = [
       },
       {
         title: "NFT Ad Website",
-        image: "//assets/nft_ad.png",
+        image: "/assets/nft_ad.png",
         tags: [
           { title: "Website design", color: "#FFE8E8" },
           { title: "Art & Illustration", color: "#FFF5E1" },
@@ -83,13 +83,6 @@ const workData = [
         description: "Designed for BeMoney Money.",
         path: "rent_receipt.pdf",
       },
-      //   {
-      //     title: "More on Behance",
-      //     image: "//assets/behance_cover.png",
-      //     link: "https://www.behance.net/",
-      //     tags: [],
-      //     description: "See more work and case studies on Behance.",
-      //   },
     ],
   },
 ];
