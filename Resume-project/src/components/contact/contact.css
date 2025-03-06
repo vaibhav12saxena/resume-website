@@ -44,5 +44,9 @@ textarea {
   background-color: #ffe9e4;
   border-radius: 48px;
 }
-
-
+.iconButton {
+  transition: transform 0.3s ease;
+}
+.iconButton:hover {
+  transform: translateY(-2px);
+}

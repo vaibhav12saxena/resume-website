@@ -7,10 +7,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: transform 0.3s ease;
+}
+.card-img:hover {
+  transform: translateY(-2px);
 }
 .card-title {
   margin-top: 8px;
   margin-bottom: 8px;
+  font-weight: 600;
 }
 .chips-list {
   display: flex;

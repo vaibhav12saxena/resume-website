@@ -9,7 +9,9 @@ const Work = () => {
       <div className="container mx-auto">
         {workData.map((section, sectionIndex) => (
           <div key={sectionIndex} className="mb-12">
-            <h2 className="section-title mb-4">{section.section}</h2>
+            <h2 className="section-title mb-4 section-heading">
+              {section.section}
+            </h2>
 
             {/* Responsive Grid Layout */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -29,7 +31,7 @@ const Work = () => {
                 <div className="behance-card flex items-center justify-center text-center p-4  rounded-lg">
                   + more on&nbsp;
                   <a
-                    href="https://www.behance.net/"
+                    href="https://www.behance.net/somyaburmac0aa"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

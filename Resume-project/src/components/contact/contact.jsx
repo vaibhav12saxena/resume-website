@@ -51,16 +51,79 @@ const Contact = () => {
       setStatus("Error sending message.");
     }
   };
+  const handleResumeClick = () => {
+    // Construct the full path to the PDF in the public folder
+    const pdfUrl = `assets/Somya Burman - Product Designer Resume.pdf`;
+    window.open(pdfUrl, "_blank");
+  };
 
   return (
     <section
       id="contact"
       className="min-h-screen flex flex-col items-center justify-center px-4 bg-white"
     >
+      <div className="text-center">
+        {/* Social Icons */}
+        <div className="mb-10">
+          <p className="text-lg font-medium mb-4">My socials -</p>
+          <div className="flex justify-center gap-6">
+            <div className="iconButton">
+              <a
+                href="https://www.behance.net/somyaburmac0aa"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-2xl text-black"
+              >
+                <span className="font-bold">
+                  <img src="/assets/behance_icon.png" />
+                </span>
+              </a>
+            </div>
+            <div className="iconButton">
+              <a
+                href="https://www.linkedin.com/in/somyaburman/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-2xl text-black"
+              >
+                <span className="font-bold">
+                  <img src="/assets/linkedin_icon.png" />
+                </span>
+              </a>
+            </div>
+            <div className="iconButton">
+              <a
+                href="https://www.instagram.com/penfreak_"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-2xl text-black"
+              >
+                <span className="font-bold">
+                  <img src="/assets/insta_icon.png" />
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Resume Link */}
+      <div className="mb-10 flex flex-col items-center text-center">
+        <p className="text-lg font-medium mb-4">View my resume -</p>
+        <div className="iconButton">
+          <img
+            onClick={handleResumeClick}
+            src="/assets/resume.png"
+            alt="Resume Icon"
+            className="cursor-pointer w-12 h-12"
+          />
+        </div>
+      </div>
+
       <div className="text-center max-w-md w-full p-6 rounded-lg shadow-lg bg-white">
         <h2 className="text-xl font-semibold mb-4">Get in Touch</h2>
         <p className="text-gray-600 mb-6">
-          Drop your feedback or just say hello!
+          Feel free to drop in your feedback, suggestions or simply to connect!
         </p>
 
         <form onSubmit={handleSubmit} className="space-y-4">

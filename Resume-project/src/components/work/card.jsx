@@ -4,11 +4,7 @@ import "./card.css";
 
 const Card = ({ title, tags, image, path }) => {
   const handleCardClick = () => {
-    if (path) {
-      // Construct the full path to the PDF in the public folder
-      const pdfUrl = `${window.location.origin}/${path}`;
-      window.open(pdfUrl, "_blank");
-    }
+    window.open(path, "_blank");
   };
 
   // const handleCardClick = () => {
@@ -26,8 +22,8 @@ const Card = ({ title, tags, image, path }) => {
   // };
 
   return (
-    <div className="card cursor-pointer" onClick={handleCardClick}>
-      <div className="card-img">
+    <div className="card ">
+      <div className="card-img cursor-pointer" onClick={handleCardClick}>
         <img src={image} alt="Card" />
       </div>
       <div className="card-title">{title}</div>

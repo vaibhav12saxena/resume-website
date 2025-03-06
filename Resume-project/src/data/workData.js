@@ -8,10 +8,10 @@ const workData = [
         tags: [
           { title: "Product design", color: "#FDF4EB" },
           { title: "Exploratory", color: "#EBFDEE" },
-          { title: "Innovate’24", color: "#F5EBFD" },
+          { title: "Ennovate’24", color: "#F5EBFD" },
         ],
         description: "Designed for Enphase.",
-        path: "pathways.pdf",
+        path: "https://drive.google.com/file/d/1Jge6R_9kx-JYyH4RDauZr01Igf-xfXbh/view?usp=sharing",
       },
       {
         title: "Homeowner engagement through Enphase AI Assistant",
@@ -22,7 +22,7 @@ const workData = [
           { title: "B2C", color: "#E8FCFF" },
         ],
         description: "Conversation design. Designed for Enphase.",
-        path: "pathways.pdf",
+        path: "https://drive.google.com/file/d/10c-seODo6eg8ntHqKadAvjAo_Phjck_-/view?usp=sharing",
       },
       {
         title: "Express Editor: Real-Time Solar Proposal Customization Tool",
@@ -33,7 +33,7 @@ const workData = [
           { title: "B2B", color: "#F5EBFD" },
         ],
         description: "Information design. Designed for Enphase.",
-        path: "pathways.pdf",
+        path: "https://drive.google.com/file/d/1lbUV89Ht9o-47Gkf3DFAVrkDL4iQ-K6S/view?usp=sharing",
       },
       {
         title: "Iconography for Solargraf",
@@ -43,7 +43,7 @@ const workData = [
           { title: "Solargraf", color: "#FFF5E1" },
         ],
         description: "Designed for Enphase.",
-        path: "pathways.pdf",
+        path: "https://drive.google.com/file/d/1UoEOQhZ_qBoSbqvQhz5p2nhoRpBdT9IA/view?usp=sharing",
       },
       {
         title: "Art & Illustrations",
@@ -53,7 +53,7 @@ const workData = [
           { title: "Exploratory", color: "#EBFDEE" },
         ],
         description: "",
-        path: "pathways.pdf",
+        path: "https://drive.google.com/file/d/187LEMT88_IBTx6wkwXsNu0zhvPwVes4v/view?usp=sharing",
       },
     ],
   },
@@ -69,7 +69,7 @@ const workData = [
           { title: "Degree coursework", color: "#F5EBFD" },
         ],
         description: "",
-        path: "rent_receipt.pdf",
+        path: "https://www.behance.net/gallery/152305519/TravelBugs-UIUX-Project-for-Uttarakhand-Tourism",
       },
       {
         title: "NFT Ad Website",
@@ -81,7 +81,7 @@ const workData = [
           { title: "Internship project", color: "#EBFDEE" },
         ],
         description: "Designed for BeMoney Money.",
-        path: "rent_receipt.pdf",
+        path: "https://www.behance.net/gallery/154033789/NFT-Advertisement-Website-Design-(UIUX)",
       },
     ],
   },

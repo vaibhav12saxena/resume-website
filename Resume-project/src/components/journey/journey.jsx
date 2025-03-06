@@ -77,7 +77,7 @@ const Journey = () => {
         {/* Timeline */}
         <div className="relative flex justify-center">
           {/* Dotted center line */}
-          <div className="absolute left-1/2  top30 bottom-0 w-0 border-l border-dashed border-gray-300 -translate-x-1/2" />
+          <div className="absolute left-1/2 top20 bottom-0 w-0 border-l border-dashed border-gray-300 -translate-x-1/2" />
           {/* left-[46%] md:left-[48.55%] */}
           {/* Timeline items with background image */}
           <div
