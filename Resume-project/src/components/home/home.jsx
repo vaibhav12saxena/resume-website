@@ -16,7 +16,7 @@ const Home = () => {
         <div className="flex-1 space-y-6 lg:space-y-8 max-w-2xl lg:max-w-3xl">
           {/* Header */}
           <div className="space-y-2">
-            <h1 className="gradient-text text-3xl sm:text-4xl font-bold flex items-center gap-2 text-blue">
+            <h1 className=" text-3xl sm:text-4xl font-bold flex items-center gap-2 text-blue">
               Hey!{" "}
               <span role="img" aria-label="wave" className="font-emoji">
                 👋🏼
