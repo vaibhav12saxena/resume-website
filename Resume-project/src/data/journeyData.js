@@ -39,9 +39,9 @@ const journeyData = {
     education: [
       {
         date: "2021- 2023",
-        duration: "1 year 6 months",
+        duration: "2 years",
         role: "M.Des Industrial Design",
-        company: "Capgemini Technology Services, Bangalore",
+        company: "Indian Institute of Technology Roorkee",
         color: "bg-blue-50",
       },
       {
