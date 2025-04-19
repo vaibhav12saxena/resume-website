@@ -3,6 +3,18 @@ const workData = [
     section: "⭐ Favourites",
     items: [
       {
+        title: "Homeowner engagement through Enphase AI Assistant",
+        image: "/assets/homeowner.png",
+        tags: [
+          { title: "Design for AI", color: "#F5EBFD" },
+          { title: "Product design", color: "#FFE8E8" },
+          { title: "Design system", color: "#FFF5E1" },
+          { title: "B2C", color: "#E8FCFF" },
+        ],
+        description: "Conversation design. Designed for Enphase.",
+        path: "https://drive.google.com/file/d/10c-seODo6eg8ntHqKadAvjAo_Phjck_-/view?usp=sharing",
+      },
+      {
         title: "Self troubleshooting augmented reality guide",
         image: "/assets/self_trouble.png",
         tags: [
@@ -12,17 +24,6 @@ const workData = [
         ],
         description: "Designed for Enphase.",
         path: "https://drive.google.com/file/d/1Jge6R_9kx-JYyH4RDauZr01Igf-xfXbh/view?usp=sharing",
-      },
-      {
-        title: "Homeowner engagement through Enphase AI Assistant",
-        image: "/assets/homeowner.png",
-        tags: [
-          { title: "Product design", color: "#FFE8E8" },
-          { title: "Design system", color: "#FFF5E1" },
-          { title: "B2C", color: "#E8FCFF" },
-        ],
-        description: "Conversation design. Designed for Enphase.",
-        path: "https://drive.google.com/file/d/10c-seODo6eg8ntHqKadAvjAo_Phjck_-/view?usp=sharing",
       },
       {
         title: "Express Editor: Real-Time Solar Proposal Customization Tool",
