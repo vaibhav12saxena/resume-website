@@ -12,7 +12,7 @@ const workData = [
           { title: "B2C", color: "#E8FCFF" },
         ],
         description: "Conversation design. Designed for Enphase.",
-        path: "https://drive.google.com/file/d/10c-seODo6eg8ntHqKadAvjAo_Phjck_-/view?usp=sharing",
+        path: "/Ai_assitant_Hidden_view.pdf",
       },
       {
         title: "Self troubleshooting augmented reality guide",
@@ -23,7 +23,7 @@ const workData = [
           { title: "Ennovate’24", color: "#F5EBFD" },
         ],
         description: "Designed for Enphase.",
-        path: "https://drive.google.com/file/d/1Jge6R_9kx-JYyH4RDauZr01Igf-xfXbh/view?usp=sharing",
+        path: "/AR_Troubleshooting_guide.pdf",
       },
       {
         title: "Express Editor: Real-Time Solar Proposal Customization Tool",
@@ -34,7 +34,7 @@ const workData = [
           { title: "B2B", color: "#F5EBFD" },
         ],
         description: "Information design. Designed for Enphase.",
-        path: "https://drive.google.com/file/d/1lbUV89Ht9o-47Gkf3DFAVrkDL4iQ-K6S/view?usp=sharing",
+        path: "/Express_Editor_Hidden_View.pdf",
       },
       {
         title: "Iconography for Solargraf",
@@ -44,7 +44,7 @@ const workData = [
           { title: "Solargraf", color: "#FFF5E1" },
         ],
         description: "Designed for Enphase.",
-        path: "https://drive.google.com/file/d/1UoEOQhZ_qBoSbqvQhz5p2nhoRpBdT9IA/view?usp=sharing",
+        path: "/Iconography.pdf",
       },
       {
         title: "Art & Illustrations",
@@ -54,7 +54,7 @@ const workData = [
           { title: "Exploratory", color: "#EBFDEE" },
         ],
         description: "",
-        path: "https://drive.google.com/file/d/187LEMT88_IBTx6wkwXsNu0zhvPwVes4v/view?usp=sharing",
+        path: "/Art_and_Illustration.pdf",
       },
     ],
   },
