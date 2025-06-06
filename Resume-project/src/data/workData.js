@@ -15,17 +15,6 @@ const workData = [
         path: "/ai_assistant_somya.pdf",
       },
       {
-        title: "Self troubleshooting augmented reality guide",
-        image: "/assets/self_trouble.png",
-        tags: [
-          { title: "Product design", color: "#FDF4EB" },
-          { title: "Exploratory", color: "#EBFDEE" },
-          { title: "Ennovate’24", color: "#F5EBFD" },
-        ],
-        description: "Designed for Enphase.",
-        path: "/ar_troubleshooting_guide_somya.pdf",
-      },
-      {
         title: "Express Editor: Real-Time Solar Proposal Customization Tool",
         image: "/assets/express_editor.png",
         tags: [
@@ -35,6 +24,17 @@ const workData = [
         ],
         description: "Information design. Designed for Enphase.",
         path: "/express_editor_somya.pdf",
+      },
+      {
+        title: "Self troubleshooting augmented reality guide",
+        image: "/assets/self_trouble.png",
+        tags: [
+          { title: "Product design", color: "#FDF4EB" },
+          { title: "Exploratory", color: "#EBFDEE" },
+          { title: "Ennovate’24", color: "#F5EBFD" },
+        ],
+        description: "Designed for Enphase.",
+        path: "/ar_troubleshooting_guide_somya.pdf",
       },
       {
         title: "Iconography for Solargraf",
