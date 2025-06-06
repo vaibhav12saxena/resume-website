@@ -12,7 +12,7 @@ const workData = [
           { title: "B2C", color: "#E8FCFF" },
         ],
         description: "Conversation design. Designed for Enphase.",
-        path: "/Ai_assitant_Hidden_view.pdf",
+        path: "/ai_assistant_somya.pdf",
       },
       {
         title: "Self troubleshooting augmented reality guide",
@@ -44,7 +44,7 @@ const workData = [
           { title: "Solargraf", color: "#FFF5E1" },
         ],
         description: "Designed for Enphase.",
-        path: "/Iconography.pdf",
+        path: "/iconography_somya.pdf",
       },
       {
         title: "Art & Illustrations",
