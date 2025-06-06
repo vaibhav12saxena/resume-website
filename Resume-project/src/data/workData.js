@@ -4,7 +4,7 @@ const workData = [
     items: [
       {
         title: "Homeowner engagement through Enphase AI Assistant",
-        image: "/assets/homeowner.png",
+        image: "/images/homeowner.png",
         tags: [
           { title: "Design for AI", color: "#F5EBFD" },
           { title: "Product design", color: "#FFE8E8" },
@@ -12,49 +12,49 @@ const workData = [
           { title: "B2C", color: "#E8FCFF" },
         ],
         description: "Conversation design. Designed for Enphase.",
-        path: "/ai_assistant_somya.pdf",
+        path: "/projects/ai_assistant_somya.pdf",
       },
       {
         title: "Express Editor: Real-Time Solar Proposal Customization Tool",
-        image: "/assets/express_editor.png",
+        image: "/images/express_editor.png",
         tags: [
           { title: "Product design", color: "#FDF4EB" },
           { title: "Solargraf", color: "#EBFDEE" },
           { title: "B2B", color: "#F5EBFD" },
         ],
         description: "Information design. Designed for Enphase.",
-        path: "/express_editor_somya.pdf",
+        path: "/projects/express_editor_somya.pdf",
       },
       {
         title: "Self troubleshooting augmented reality guide",
-        image: "/assets/self_trouble.png",
+        image: "/images/self_trouble.png",
         tags: [
           { title: "Product design", color: "#FDF4EB" },
           { title: "Exploratory", color: "#EBFDEE" },
           { title: "Ennovate’24", color: "#F5EBFD" },
         ],
         description: "Designed for Enphase.",
-        path: "/ar_troubleshooting_guide_somya.pdf",
+        path: "/projects/ar_troubleshooting_guide_somya.pdf",
       },
       {
         title: "Iconography for Solargraf",
-        image: "/assets/iconography.png",
+        image: "/images/iconography.png",
         tags: [
           { title: "Visual design", color: "#FFE8E8" },
           { title: "Solargraf", color: "#FFF5E1" },
         ],
         description: "Designed for Enphase.",
-        path: "/iconography_somya.pdf",
+        path: "/projects/iconography_somya.pdf",
       },
       {
         title: "Art & Illustrations",
-        image: "/assets/illustration.png",
+        image: "/images/illustration.png",
         tags: [
           { title: "Digital art", color: "#E8FCFF" },
           { title: "Exploratory", color: "#EBFDEE" },
         ],
         description: "",
-        path: "/art_and_illustration_somya.pdf",
+        path: "/projects/art_and_illustration_somya.pdf",
       },
     ],
   },
@@ -64,7 +64,7 @@ const workData = [
       {
         title:
           "Travel Bugs: A community travel website catering Uttarakhand Tourism",
-        image: "/assets/travel_bugs.png",
+        image: "/images/travel_bugs.png",
         tags: [
           { title: "Product design", color: "#FDF4EB" },
           { title: "Degree coursework", color: "#F5EBFD" },
@@ -74,7 +74,7 @@ const workData = [
       },
       {
         title: "NFT Ad Website",
-        image: "/assets/nft_ad.png",
+        image: "/images/nft_ad.png",
         tags: [
           { title: "Website design", color: "#FFE8E8" },
           { title: "Art & Illustration", color: "#FFF5E1" },

@@ -53,7 +53,7 @@ const Contact = () => {
   };
   const handleResumeClick = () => {
     // Construct the full path to the PDF in the public folder
-    const pdfUrl = `assets/Somya Burman - Product Designer Resume.pdf`;
+    const pdfUrl = `resume/Somya Burman - Product Designer.pdf`;
     window.open(pdfUrl, "_blank");
   };
 
@@ -75,7 +75,7 @@ const Contact = () => {
                 className="text-2xl text-black"
               >
                 <span className="font-bold">
-                  <img src="/assets/behance_icon.png" />
+                  <img src="/images/behance_icon.png" />
                 </span>
               </a>
             </div>
@@ -87,7 +87,7 @@ const Contact = () => {
                 className="text-2xl text-black"
               >
                 <span className="font-bold">
-                  <img src="/assets/linkedin_icon.png" />
+                  <img src="/images/linkedin_icon.png" />
                 </span>
               </a>
             </div>
@@ -99,7 +99,7 @@ const Contact = () => {
                 className="text-2xl text-black"
               >
                 <span className="font-bold">
-                  <img src="/assets/insta_icon.png" />
+                  <img src="/images/insta_icon.png" />
                 </span>
               </a>
             </div>
@@ -113,7 +113,7 @@ const Contact = () => {
         <div className="iconButton">
           <img
             onClick={handleResumeClick}
-            src="/assets/resume.png"
+            src="/images/resume.png"
             alt="Resume Icon"
             className="cursor-pointer w-12 h-12"
           />
