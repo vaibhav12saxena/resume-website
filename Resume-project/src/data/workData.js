@@ -23,7 +23,7 @@ const workData = [
           { title: "Ennovate’24", color: "#F5EBFD" },
         ],
         description: "Designed for Enphase.",
-        path: "/AR_Troubleshooting_guide.pdf",
+        path: "/ar_troubleshooting_guide_somya.pdf",
       },
       {
         title: "Express Editor: Real-Time Solar Proposal Customization Tool",
@@ -34,7 +34,7 @@ const workData = [
           { title: "B2B", color: "#F5EBFD" },
         ],
         description: "Information design. Designed for Enphase.",
-        path: "/Express_Editor_Hidden_View.pdf",
+        path: "/express_editor_somya.pdf",
       },
       {
         title: "Iconography for Solargraf",
@@ -54,7 +54,7 @@ const workData = [
           { title: "Exploratory", color: "#EBFDEE" },
         ],
         description: "",
-        path: "/Art_and_Illustration.pdf",
+        path: "/art_and_illustration_somya.pdf",
       },
     ],
   },
