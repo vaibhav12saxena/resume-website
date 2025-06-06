@@ -2,7 +2,7 @@ const journeyData = {
     work: [
       {
         date: "Jul' 2023 - Present",
-        duration: "",
+        duration: "2 years",
         role: "UX Designer",
         company: "Enphase Solar Energy, Bangalore",
         color: "bg-orange-50",
