@@ -1,6 +1,6 @@
 const workData = [
   {
-    section: "⭐ Favourites",
+    section: "Latest Projects",
     items: [
       {
         title: "Homeowner engagement through Enphase AI Assistant",
@@ -59,7 +59,7 @@ const workData = [
     ],
   },
   {
-    section: "📦 Archives",
+    section: "Archives",
     items: [
       {
         title:

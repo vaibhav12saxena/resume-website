@@ -9,9 +9,9 @@ const Work = () => {
       <div className="container mx-auto">
         {workData.map((section, sectionIndex) => (
           <div key={sectionIndex} className="mb-12">
-            <h2 className="section-title mb-4 section-heading">
+            <h1 className="text-[24px] mb-4 section-title section-heading">
               {section.section}
-            </h2>
+            </h1>
 
             {/* Responsive Grid Layout */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

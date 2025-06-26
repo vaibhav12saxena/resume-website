@@ -46,7 +46,7 @@ const Journey = () => {
           >
             <span className="text-xl">📝</span>
             <span
-              className={`text-lg ${
+              className={`text-[24px] ${
                 activeTab === "work" ? "text-gray-800" : "text-gray-400"
               }`}
             >
@@ -62,7 +62,7 @@ const Journey = () => {
           >
             <span className="text-xl">🎓</span>
             <span
-              className={`text-lg ${
+              className={`text-[24px] ${
                 activeTab === "education" ? "text-gray-800" : "text-gray-400"
               }`}
             >
