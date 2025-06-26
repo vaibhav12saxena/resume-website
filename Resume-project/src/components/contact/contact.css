@@ -21,32 +21,26 @@
   margin: 0 10px;
 }
 
-button {
-  background-color: #f0f0f0;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.margin-bottom {
-  margin-bottom: 228px;
-}
-
 input {
-  height: 64px !important;
+  height: 36px !important;
 }
 textarea {
-  height: 145px;
+  height: 100px;
 }
 .send-button {
-  color: #000;
   background-color: #ffe9e4;
-  border-radius: 48px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 2px solid #373737;
+  border-radius: 30px;
 }
-.iconButton {
+.icon-button {
+  height: 48px;
   transition: transform 0.3s ease;
 }
-.iconButton:hover {
+.icon-Images {
+  height: 48px;
+}
+.icon-button:hover {
   transform: translateY(-2px);
 }

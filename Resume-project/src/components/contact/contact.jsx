@@ -65,9 +65,9 @@ const Contact = () => {
       <div className="text-center">
         {/* Social Icons */}
         <div className="mb-10">
-          <p className="text-lg font-medium mb-4">My socials -</p>
+          <p className="text-lg font-medium mb-4">My socials </p>
           <div className="flex justify-center gap-6">
-            <div className="iconButton">
+            <div className="icon-button">
               <a
                 href="https://www.behance.net/somyaburmac0aa"
                 target="_blank"
@@ -75,11 +75,11 @@ const Contact = () => {
                 className="text-2xl text-black"
               >
                 <span className="font-bold">
-                  <img src="/images/behance_icon.png" />
+                  <img src="/images/behance_icon.png" className="icon-Images" />
                 </span>
               </a>
             </div>
-            <div className="iconButton">
+            <div className="icon-button">
               <a
                 href="https://www.linkedin.com/in/somyaburman/"
                 target="_blank"
@@ -87,11 +87,11 @@ const Contact = () => {
                 className="text-2xl text-black"
               >
                 <span className="font-bold">
-                  <img src="/images/linkedin_icon.png" />
+                  <img src="/images/linkedin_icon.png"  className="icon-Images" />
                 </span>
               </a>
             </div>
-            <div className="iconButton">
+            <div className="icon-button">
               <a
                 href="https://www.instagram.com/penfreak_"
                 target="_blank"
@@ -99,7 +99,7 @@ const Contact = () => {
                 className="text-2xl text-black"
               >
                 <span className="font-bold">
-                  <img src="/images/insta_icon.png" />
+                  <img src="/images/insta_icon.png" className="icon-Images"  />
                 </span>
               </a>
             </div>
@@ -109,8 +109,8 @@ const Contact = () => {
 
       {/* Resume Link */}
       <div className="mb-10 flex flex-col items-center text-center">
-        <p className="text-lg font-medium mb-4">View my resume -</p>
-        <div className="iconButton">
+        <p className="text-lg font-medium mb-4">View my resume </p>
+        <div className="icon-button">
           <img
             onClick={handleResumeClick}
             src="/images/resume.png"
@@ -188,7 +188,7 @@ const Contact = () => {
 
           <button
             type="submit"
-            className="w-full font-medium py-3 rounded-lg bg-[#FFE9E4] text-black hover:bg-[#FFD3C9] transition"
+            className="send-button w-full font-medium py-3 rounded-lg bg-[#FFE9E4] text-black hover:bg-[#FFD3C9] transition"
           >
             Send
           </button>

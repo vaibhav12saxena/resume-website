@@ -1,16 +1,23 @@
 .card {
   width: 320px;
+  border: 2px solid #373737;
+  padding: 8px 8px 16px 8px;
+  border-radius: 12px;
+  background-color: #fffeec;
+  transition: transform 0.3s ease;
 }
 .card-img {
-  background-color: rgb(171, 169, 169);
-  height: 180px;
+  border: 1.5px solid #373737;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 8px;
-  transition: transform 0.3s ease;
+  border-radius: 10px;
 }
-.card-img:hover {
+.homeowner-img {
+  max-width: 101% !important;
+  border-color: red !important;
+}
+.card:hover {
   transform: translateY(-2px);
 }
 .card-title {
@@ -21,7 +28,7 @@
 .chips-list {
   display: flex;
   flex-wrap: wrap;
-  width: 320px;
+  width: 304px;
   gap: 8px; /* Margin between chips and lines */
   margin-bottom: 8px; /* Margin between lines */
 }

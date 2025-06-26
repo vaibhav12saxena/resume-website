@@ -7,23 +7,9 @@ const Card = ({ title, tags, image, path }) => {
     window.open(path, "_blank");
   };
 
-  // const handleCardClick = () => {
-  //   const enteredPassword = prompt(
-  //     "Enter the password to access this document:"
-  //   );
-  //   const correctPassword = "your-secure-password"; // Replace with your actual password
-
-  //   if (enteredPassword === correctPassword) {
-  //     const pdfUrl = `${window.location.origin}/${path}`;
-  //     window.open(pdfUrl, "_blank");
-  //   } else {
-  //     alert("Incorrect password. Please try again.");
-  //   }
-  // };
-
   return (
-    <div className="card ">
-      <div className="card-img cursor-pointer" onClick={handleCardClick}>
+    <div className="card cursor-pointer ">
+      <div className="card-img " onClick={handleCardClick}>
         <img src={image} alt="Card" />
       </div>
       <div className="card-title">{title}</div>

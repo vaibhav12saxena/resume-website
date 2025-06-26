@@ -8,7 +8,7 @@ const Navbar = () => {
         {/* Logo Section */}
         <div className="font-bold text-lg text-gray-800">
           <Link
-            to="home"
+            to="space"
             smooth={true}
             duration={500}
             className="cursor-pointer hover:text-gray-600"
@@ -19,7 +19,7 @@ const Navbar = () => {
 
         {/* Links Section */}
         <div className="flex gap-8 text-gray-700 text-sm font-medium">
-          {["home", "work", "journey", "contact"].map((section) => (
+          {["space", "work", "journey", "contact"].map((section) => (
             <Link
               key={section}
               to={section}
