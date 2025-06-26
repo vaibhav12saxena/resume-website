@@ -87,7 +87,10 @@ const Contact = () => {
                 className="text-2xl text-black"
               >
                 <span className="font-bold">
-                  <img src="/images/linkedin_icon.png"  className="icon-Images" />
+                  <img
+                    src="/images/linkedin_icon.png"
+                    className="icon-Images"
+                  />
                 </span>
               </a>
             </div>
@@ -99,7 +102,7 @@ const Contact = () => {
                 className="text-2xl text-black"
               >
                 <span className="font-bold">
-                  <img src="/images/insta_icon.png" className="icon-Images"  />
+                  <img src="/images/insta_icon.png" className="icon-Images" />
                 </span>
               </a>
             </div>
@@ -120,7 +123,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="text-center max-w-md w-full p-6 rounded-lg shadow-lg bg-white">
+      <div className="text-center max-w-md w-full p-6 rounded-lg border-2 border-[#373737] bg-[#fffeec]">
         <h2 className="text-xl font-semibold mb-4">Get in Touch</h2>
         <p className="text-gray-600 mb-6">
           Feel free to drop in your feedback, suggestions or simply to connect!
@@ -134,10 +137,11 @@ const Contact = () => {
               placeholder="Name"
               value={formData.name}
               onChange={handleChange}
-              className={`w-full border rounded-lg p-3 focus:outline-none focus:ring-2 ${
+              className={`w-full rounded-lg p-3 focus:outline-none 
+              ${
                 errors.name
-                  ? "border-red-500 focus:ring-red-300"
-                  : "border-gray-300 focus:ring-[#FFE9E4]"
+                  ? "border border-red-500"
+                  : "border-[1.5px] border-[#373737]"
               }`}
             />
             {errors.name && (
@@ -154,11 +158,8 @@ const Contact = () => {
               placeholder="Email"
               value={formData.email}
               onChange={handleChange}
-              className={`w-full border rounded-lg p-3 focus:outline-none focus:ring-2 ${
-                errors.email
-                  ? "border-red-500 focus:ring-red-300"
-                  : "border-gray-300 focus:ring-[#FFE9E4]"
-              }`}
+              className={`w-full rounded-lg p-3 focus:outline-none 
+  ${errors.name ? "border border-red-500" : "border-[1.5px] border-[#373737]"}`}
             />
             {errors.email && (
               <p className="text-red-500 text-sm mt-1 text-left">
@@ -173,11 +174,8 @@ const Contact = () => {
               placeholder="Message"
               value={formData.message}
               onChange={handleChange}
-              className={`w-full border rounded-lg p-3 focus:outline-none focus:ring-2 ${
-                errors.message
-                  ? "border-red-500 focus:ring-red-300"
-                  : "border-gray-300 focus:ring-[#FFE9E4]"
-              }`}
+              className={`w-full rounded-lg p-3 focus:outline-none 
+  ${errors.name ? "border border-red-500" : "border-[1.5px] border-[#373737]"}`}
             ></textarea>
             {errors.message && (
               <p className="text-red-500 text-sm mt-1 text-left">
@@ -188,7 +186,7 @@ const Contact = () => {
 
           <button
             type="submit"
-            className="send-button w-full font-medium py-3 rounded-lg bg-[#FFE9E4] text-black hover:bg-[#FFD3C9] transition"
+            className="send-button w-full font-medium py-3 rounded-lg bg-[#e3d7ff] text-black hover:bg-[#c5adfd] transition"
           >
             Send
           </button>
