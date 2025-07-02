@@ -8,7 +8,7 @@ const workData = [
         tags: [
           { title: "Gen-AI", color: "#E8FCFF" },
           { title: "UX for AI", color: "#E3FFD9" },
-          { title: "Conversatio Design", color: "#FFF5E1" },
+          { title: "Conversation Design", color: "#FFF5E1" },
           { title: "0 to 1 product", color: "#FFDBE0" },
           { title: "Customer Self-Service", color: "#FFE7FF" },
         ],
