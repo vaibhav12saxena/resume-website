@@ -3,45 +3,49 @@ const workData = [
     section: "Latest Projects",
     items: [
       {
-        title: "Homeowner engagement through Enphase AI Assistant",
+        title: "Enhancing user engagement with Enphase AI",
         image: "/images/homeowner.png",
         tags: [
-          { title: "Design for AI", color: "#F5EBFD" },
-          { title: "Product design", color: "#FFE8E8" },
-          { title: "Design system", color: "#FFF5E1" },
-          { title: "B2C", color: "#E8FCFF" },
+          { title: "Gen-AI", color: "#E8FCFF" },
+          { title: "UX for AI", color: "#E3FFD9" },
+          { title: "Conversatio Design", color: "#FFF5E1" },
+          { title: "0 to 1 product", color: "#FFDBE0" },
+          { title: "Customer Self-Service", color: "#FFE7FF" },
         ],
         description: "Conversation design. Designed for Enphase.",
         path: "/projects/ai_assistant_somya.pdf",
       },
       {
-        title: "Express Editor: Real-Time Solar Proposal Customization Tool",
+        title:
+          "Solargraf Express Editor : Tool to customise proposals in real-time",
         image: "/images/express_editor.png",
         tags: [
-          { title: "Product design", color: "#FDF4EB" },
-          { title: "Solargraf", color: "#EBFDEE" },
-          { title: "B2B", color: "#F5EBFD" },
+          { title: "Feature design", color: "#E8FFEA" },
+          { title: "Lean UX", color: "#FFCFCF" },
+          { title: "B2B", color: "#FFE7FF" },
+          { title: "Solar sales", color: "#FFF5E1" },
         ],
         description: "Information design. Designed for Enphase.",
         path: "/projects/express_editor_somya.pdf",
       },
       {
-        title: "Self troubleshooting augmented reality guide",
+        title: "Self troubleshooting AR guide for Enphase System owners",
         image: "/images/self_trouble.png",
         tags: [
-          { title: "Product design", color: "#FDF4EB" },
-          { title: "Exploratory", color: "#EBFDEE" },
-          { title: "Ennovate’24", color: "#F5EBFD" },
+          { title: "Designed for Enphase", color: "#FFF5E1" },
+          { title: "Thesis M.Des ‘23", color: "#EFFFC6" },
+          { title: "Ennovate’24 - Honourable Mention", color: "#E8FCFF" },
         ],
         description: "Designed for Enphase.",
         path: "/projects/ar_troubleshooting_guide_somya.pdf",
       },
       {
-        title: "Iconography for Solargraf",
+        title: "Redesigning the icon system for Solargraf",
         image: "/images/iconography.png",
         tags: [
-          { title: "Visual design", color: "#FFE8E8" },
-          { title: "Solargraf", color: "#FFF5E1" },
+          { title: "Icon Design", color: "#E8FCFF" },
+          { title: "Visual Design", color: "#EFFFC6" },
+          { title: "Designed for Enphase", color: "#FCE0FF" },
         ],
         description: "Designed for Enphase.",
         path: "/projects/iconography_somya.pdf",
@@ -50,8 +54,8 @@ const workData = [
         title: "Art & Illustrations",
         image: "/images/illustration.png",
         tags: [
-          { title: "Digital art", color: "#E8FCFF" },
-          { title: "Exploratory", color: "#EBFDEE" },
+          { title: "Digital art", color: "#D2EDFF" },
+          { title: "Exploratory", color: "#FCE0FF" },
         ],
         description: "",
         path: "/projects/art_and_illustration_somya.pdf",
@@ -62,24 +66,25 @@ const workData = [
     section: "Archives",
     items: [
       {
-        title:
-          "Travel Bugs: A community travel website catering Uttarakhand Tourism",
+        title: "Community travel website catering Uttarakhand Tourism",
         image: "/images/travel_bugs.png",
         tags: [
-          { title: "Product design", color: "#FDF4EB" },
-          { title: "Degree coursework", color: "#F5EBFD" },
+          { title: "UI/UX design", color: "#E8FCFF" },
+          { title: "M.Des coursework", color: "#EFFFC6" },
         ],
         description: "",
         path: "https://www.behance.net/gallery/152305519/TravelBugs-UIUX-Project-for-Uttarakhand-Tourism",
       },
       {
-        title: "NFT Ad Website",
+        title: "NFT AD Landing page - Website",
         image: "/images/nft_ad.png",
         tags: [
-          { title: "Website design", color: "#FFE8E8" },
-          { title: "Art & Illustration", color: "#FFF5E1" },
-          { title: "Animation", color: "#E8FCFF" },
-          { title: "Internship project", color: "#EBFDEE" },
+          { title: "Website design", color: "#E8FCFF" },
+          { title: "Visual design", color: "#FFE8E8" },
+          { title: "Animation", color: "#FFF5E1" },
+          { title: "Art & Illustration", color: "#EFFFC6" },
+
+          { title: "Internship project", color: "#D7EFFF" },
         ],
         description: "Designed for BeMoney Money.",
         path: "https://www.behance.net/gallery/154033789/NFT-Advertisement-Website-Design-(UIUX)",
@@ -87,5 +92,4 @@ const workData = [
     ],
   },
 ];
-
 export default workData;

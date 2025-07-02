@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./card";
+import Card from "../reusable components/card";
 import "./work.css";
 import workData from "../../data/workData";
 
