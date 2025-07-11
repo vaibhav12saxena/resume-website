@@ -1,9 +1,6 @@
-.max-width-101 {
-  max-width: 101% !important;
-}
 .card {
-  height: 354px;
-  width: 360px;
+  /* height: 354px; */
+  /* width: 360px; */
   padding: 20px 20px 28px 20px;
   transition: transform 0.3s ease;
   border-radius: 4px;
@@ -16,12 +13,12 @@
   border: 1.5px solid #373737;
   border-radius: 10px;
   aspect-ratio: 16 / 9;
-  width: 100%; 
+  width: 100%;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fff; 
+  background-color: #fff;
 }
 
 .card-img img {
@@ -29,10 +26,6 @@
   height: 100%;
   object-fit: cover; /* 'cover' fills and crops; use 'contain' if needed */
   border-radius: 8.5px; /* match container’s radius */
-}
-.homeowner-img {
-  max-width: 101% !important;
-  border-color: red !important;
 }
 .card:hover {
   transform: translateY(-2px);
@@ -47,7 +40,7 @@
 .chips-list {
   display: flex;
   flex-wrap: wrap;
-  width: 320px;
+  /* width: 320px; */
   gap: 8px; /* Margin between chips and lines */
   margin-bottom: 8px; /* Margin between lines */
 }
