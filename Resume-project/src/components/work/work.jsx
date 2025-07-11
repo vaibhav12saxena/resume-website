@@ -34,6 +34,7 @@ const Work = () => {
                     href="https://www.behance.net/somyaburmac0aa"
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="custom-cursor"
                   >
                     <u className="text-blue-500">Behance</u>
                   </a>

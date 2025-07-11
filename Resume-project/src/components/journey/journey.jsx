@@ -42,7 +42,7 @@ const Journey = () => {
         <div className="flex justify-center gap-12 ">
           <button
             onClick={() => setActiveTab("work")}
-            className="bg-transparent group flex items-center gap-2 pb-2 relative"
+            className="bg-transparent group flex items-center gap-2 pb-2 relative custom-cursor"
           >
             {/* <span className="text-xl">📝</span> */}
             <span
@@ -58,7 +58,7 @@ const Journey = () => {
           </button>
           <button
             onClick={() => setActiveTab("education")}
-            className="bg-transparent group flex items-center gap-2 pb-2 relative"
+            className="bg-transparent group flex items-center gap-2 pb-2 relative custom-cursor "
           >
             {/* <span className="text-xl">🎓</span> */}
             <span

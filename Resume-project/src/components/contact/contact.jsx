@@ -75,7 +75,10 @@ const Contact = () => {
                 className="text-2xl text-black"
               >
                 <span className="font-bold">
-                  <img src="/images/behance_icon.png" className="icon-Images" />
+                  <img
+                    src="/images/behance_icon.png"
+                    className="icon-Images custom-cursor"
+                  />
                 </span>
               </a>
             </div>
@@ -89,7 +92,7 @@ const Contact = () => {
                 <span className="font-bold">
                   <img
                     src="/images/linkedin_icon.png"
-                    className="icon-Images"
+                    className="icon-Images custom-cursor"
                   />
                 </span>
               </a>
@@ -102,7 +105,10 @@ const Contact = () => {
                 className="text-2xl text-black"
               >
                 <span className="font-bold">
-                  <img src="/images/insta_icon.png" className="icon-Images" />
+                  <img
+                    src="/images/insta_icon.png"
+                    className="icon-Images custom-cursor"
+                  />
                 </span>
               </a>
             </div>
@@ -118,7 +124,7 @@ const Contact = () => {
             onClick={handleResumeClick}
             src="/images/resume.png"
             alt="Resume Icon"
-            className="cursor-pointer w-12 h-12"
+            className="custom-cursor w-12 h-12"
           />
         </div>
       </div>
@@ -186,7 +192,7 @@ const Contact = () => {
 
           <button
             type="submit"
-            className="send-button w-full font-medium py-3 rounded-lg bg-[#e3d7ff] text-black hover:bg-[#c5adfd] transition"
+            className="send-button w-full font-medium py-3 rounded-lg bg-[#e3d7ff] text-black hover:bg-[#c5adfd] transition custom-cursor"
           >
             Send
           </button>

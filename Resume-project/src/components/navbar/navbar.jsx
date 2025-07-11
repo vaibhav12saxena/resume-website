@@ -11,7 +11,7 @@ const Navbar = () => {
             to="space"
             smooth={true}
             duration={500}
-            className="cursor-pointer hover:text-gray-600"
+            className="custom-cursor hover:text-gray-600"
           >
             {/* Somya's Portfolio */}
           </Link>
@@ -27,7 +27,7 @@ const Navbar = () => {
               duration={500}
               spy={true}
               activeClass=" font-semibold border-b-2 border-black pb-1"
-              className="cursor-pointer hover:text-gray-600 transition-all"
+              className="custom-cursor hover:text-gray-600 transition-all"
             >
               {section.charAt(0).toUpperCase() + section.slice(1)}
             </Link>

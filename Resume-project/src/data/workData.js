@@ -60,6 +60,16 @@ const workData = [
         description: "",
         path: "/projects/art_and_illustration_somya.pdf",
       },
+      {
+        title: "EzyPay : Making in-store grocery shopping easier",
+        image: "/images/ezypay.png",
+        tags: [
+          { title: "Personal Project", color: "#EFFFC6" },
+          { title: "Exploratory", color: "#FCE0FF" },
+        ],
+        description: "",
+        path: "https://www.figma.com/proto/Ox0Vz2fKA7hSmhMDObL26h/No-Queue?node-id=320-13162&t=zFQl6CcFYIsc9Y0c-1&scaling=scale-down&content-scaling=fixed&page-id=5%3A3&starting-point-node-id=320%3A13162",
+      },
     ],
   },
   {

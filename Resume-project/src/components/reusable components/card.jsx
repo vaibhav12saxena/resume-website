@@ -8,18 +8,10 @@ const Card = ({ title, tags, image, path }) => {
   };
 
   return (
-    <div className="card cursor-pointer ">
+    <div className="card custom-cursor ">
       <div className="card-title">{title}</div>
       <div className="card-img " onClick={handleCardClick}>
-        <img
-          src={image}
-          alt="Card"
-          // className={
-          //   image == "/images/homeowner.png" || image == "/images/nft_ad.png"
-          //     ? "max-width-101"
-          //     : ""
-          // }
-        />
+        <img src={image} alt="Card" />
       </div>
 
       <div className="chips-list">

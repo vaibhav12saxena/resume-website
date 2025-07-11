@@ -1,3 +1,9 @@
+body {
+  cursor: url("/images/default_cursor.png"), auto;
+}
+.custom-cursor {
+  cursor: url("/images/hover_cursor.png"), auto;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

@@ -29,7 +29,6 @@ textarea {
 }
 .send-button {
   padding: 10px 20px;
-  cursor: pointer;
   border: 2px solid #373737;
   border-radius: 30px;
 }
