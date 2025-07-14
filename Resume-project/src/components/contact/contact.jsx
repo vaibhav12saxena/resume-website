@@ -76,6 +76,7 @@ const Contact = () => {
               >
                 <span className="font-bold">
                   <img
+                    alt="behance icon"
                     src="/images/behance_icon.png"
                     className="icon-Images custom-cursor"
                   />
@@ -91,6 +92,7 @@ const Contact = () => {
               >
                 <span className="font-bold">
                   <img
+                    alt="linkedin icon"
                     src="/images/linkedin_icon.png"
                     className="icon-Images custom-cursor"
                   />
@@ -106,6 +108,7 @@ const Contact = () => {
               >
                 <span className="font-bold">
                   <img
+                    alt="instagram icon"
                     src="/images/insta_icon.png"
                     className="icon-Images custom-cursor"
                   />
@@ -143,7 +146,7 @@ const Contact = () => {
               placeholder="Name"
               value={formData.name}
               onChange={handleChange}
-              className={`w-full rounded-lg p-3 focus:outline-none 
+              className={`w-full rounded-lg p-3 focus:outline-none custom-cursor
               ${
                 errors.name
                   ? "border border-red-500"
@@ -164,7 +167,7 @@ const Contact = () => {
               placeholder="Email"
               value={formData.email}
               onChange={handleChange}
-              className={`w-full rounded-lg p-3 focus:outline-none 
+              className={`w-full rounded-lg p-3 focus:outline-none custom-cursor
   ${errors.name ? "border border-red-500" : "border-[1.5px] border-[#373737]"}`}
             />
             {errors.email && (
@@ -180,7 +183,7 @@ const Contact = () => {
               placeholder="Message"
               value={formData.message}
               onChange={handleChange}
-              className={`w-full rounded-lg p-3 focus:outline-none 
+              className={`w-full rounded-lg p-3 focus:outline-none custom-cursor
   ${errors.name ? "border border-red-500" : "border-[1.5px] border-[#373737]"}`}
             ></textarea>
             {errors.message && (

@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 w-full bg-white/80 backdrop-blur-sm shadow-sm z-50">
-      <div className="flex justify-between items-center max-w-7xl mx-auto px-6 py-4">
+      <div className="flex justify-between items-center max-w-8xl mx-auto px-6 py-4">
         {/* Logo Section */}
         <div className="font-bold text-lg text-gray-800">
           <Link
@@ -14,6 +14,11 @@ const Navbar = () => {
             className="custom-cursor hover:text-gray-600"
           >
             {/* Somya's Portfolio */}
+            <img
+              src="/images/flower.png"
+              alt="Logo"
+              className="h-8 w-auto inline-block"
+            />
           </Link>
         </div>
 

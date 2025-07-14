@@ -1,7 +1,11 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   theme: {
-    extend: {},
+    extend: {
+      maxWidth: {
+        "8xl": "91rem", // Custom label
+      },
+    },
   },
   plugins: [],
   corePlugins: {
