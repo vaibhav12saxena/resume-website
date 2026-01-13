@@ -9,8 +9,8 @@ const Space = () => {
         alt="Mobile View"
         className="block md:hidden w-full"
         loading="eager"
-        srcSet="/images/mobilewallgrid-optimized-480.webp 480w,
-                 /images/mobilewallgrid-optimized-720.webp 720w"
+        // srcSet="/images/mobilewallgrid-optimized-480.webp 480w,
+        //          /images/mobilewallgrid-optimized-720.webp 720w"
         sizes="(max-width: 768px) 100vw, 720px"
         width={720}
         height={1080}
@@ -20,8 +20,8 @@ const Space = () => {
         src="/images/desktopwallgrid.webp"
         alt="Desktop View"
         className="hidden md:block w-full"
-        srcSet="/images/desktopwallgrid.webp 480w,
-                 /images/desktopwallgrid.webp 720w"
+        // srcSet="/images/desktopwallgrid.webp 480w,
+        //          /images/desktopwallgrid.webp 720w"
         sizes="(max-width: 768px) 100vw, 720px"
         width={720}
         height={1080}
