@@ -51,6 +51,19 @@ const workData = [
         path: "/projects/iconography_somya.pdf",
       },
       {
+        title: "India Runs on Chai",
+        image: "/images/chaidata.png",
+        tags: [
+          { title: "Personal Project", color: "#EFFFC6" },
+          { title: "Exploratory", color: "#FCE0FF" },
+          { title: "Visual Design", color: "#D2EDFF" },
+          { title: "Data as Art", color: "#E0FFE8" },
+          { title: "Illustration & Storytelling", color: "#E0EBFF" },
+        ],
+        description: "",
+        path: "https://www.figma.com/proto/fi5xYJU2RFkMJr4xUvgbGs/Untitled?node-id=7-1314&t=Mx7BiVhRp95lEK72-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=7%3A1314",
+      },
+      {
         title: "Art & Illustrations",
         image: "/images/illustration.png",
         tags: [
@@ -59,16 +72,6 @@ const workData = [
         ],
         description: "",
         path: "/projects/art_and_illustration_somya.pdf",
-      },
-      {
-        title: "EzyPay : Making in-store grocery shopping easier",
-        image: "/images/ezypay.png",
-        tags: [
-          { title: "Personal Project", color: "#EFFFC6" },
-          { title: "Exploratory", color: "#FCE0FF" },
-        ],
-        description: "",
-        path: "https://www.figma.com/proto/Ox0Vz2fKA7hSmhMDObL26h/No-Queue?node-id=320-13162&t=zFQl6CcFYIsc9Y0c-1&scaling=scale-down&content-scaling=fixed&page-id=5%3A3&starting-point-node-id=320%3A13162",
       },
     ],
   },
